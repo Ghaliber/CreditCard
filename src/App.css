@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  text-align: start ;
+  
+  
 }
 
 .App-logo {
@@ -19,4 +21,55 @@
 
 .App-link {
   color: #09d3ac;
+}
+.title{
+ text-align: end;
+ margin: 0px 5px 15px 0px;
+ color: white;
+}
+.Card{
+  
+  width: 420px;
+  padding: 15px;
+  background-image: url('./fintech.jpg');
+  background-size: 100% 100%;
+  border-radius: 14px;
+ 
+}
+.Thick-White{
+  font-size: 150%;
+  color: white;
+  font-weight: bold;
+  margin: 0;
+}
+.Middle-Info{
+  display: flex;
+  justify-content: space-between;
+}
+.Dates{
+  display: flex;
+}
+.Bottom{
+  display: flex;
+  justify-content: space-between;
+}
+.Golden-Text{
+  font-size: 180%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: RGB(238, 247, 168);
+  background: rgba(238, 247, 168, 0.5);
+  margin-bottom: 10px;
+}
+#M-Y{
+margin: 0;
+color: white;
+font-size: 80%;
+}
+#Valid{
+  color: white;
+  font-size: 80%;
+}
+.Bottom img{
+  margin-top: 50px;
+  margin-right: 25px;
 }
